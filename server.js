@@ -16,8 +16,11 @@ warn:['yellow','bWhite'],
 
 });
 //OBTENIENDO CONCIGURACIONES
-var IP ='127.0.0.1';
-var PORT ='3000';
+//var modulo = require('./config/config');//cargar el modulo de numero poner ruta de paquete
+//console.log(`> contenido del modulo=${modulo}`);
+var config = require('./config/config');
+var IP=config.IP;
+var PORT =config.PORT;
 
 //creando el server
 
