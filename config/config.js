@@ -7,5 +7,5 @@
 //exportar objeto de configuracion 
 module.exports= {
     'IP': process.env.IP || '127.0.0.1',
-    'PORT':process.env.IP || 3000,
+    'PORT':process.env.PORT || 3000,
 };
